@@ -10,7 +10,7 @@ from models.users import User
 
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'yekuc60n6T2lgumg7y40mIXhGQw9YKCul2f6OuTDm51e09dGNO5s9Wakh7aX58Iibvbq0Y37Q1Ns204YypgoNxn3610a1agfiUtA'
+app.config['SECRET KEY'] = 'yekuc60n6T2lgumg7y40mIXhGQw9YKCul2f6OuTDm51e09dGNO5s9Wakh7aX58Iibvbq0Y37Q1Ns204YypgoNxn3610a1agfiUtA'
 
 
 class UserCreateForm(FlaskForm):
